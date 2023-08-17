@@ -13,7 +13,7 @@
 
 .nav-title {
   /* color: aliceblue; */
-  color: #0d1b2a;;
+  color: #0d1b2a;
 }
 
 .nav-lists ul {
@@ -69,7 +69,7 @@
 .profile_bio {
   max-width: 50%;
   padding-top: 9%;
-  color: #002d5b;
+  color: #002d5b !important;
 }
 .profile_bio h1{
   font-size: 70px;
@@ -162,18 +162,28 @@
   line-height: 1.5;
 }
 .detail{
+  font-family: 'Montserrat', sans-serif;
   color: #10285d;
   font-size: 18px;
   line-height: 30px;
-  margin: 2% 5% 2% 12%;
+  margin: 2% 12%;
+  text-align: justify;
   font-weight: normal;
+}
+.quotation-mark {
+  font-size: 2em;
+  color: #10285d; 
 }
 
 /* CSS for SkillSet.jsx file */
-
+.skill_set .main-title{
+  margin: 4% 10%;
+}
 .web .title{
+  background-color: #e9eefa;
   font-size: 30px;
   font-weight: 700;
+  padding: 20px;
   margin: 2% 10%;
 }
 
@@ -184,7 +194,7 @@
   justify-content: center;
   align-items: center; /* Vertically center content */
   height: 18vh;
-  width: 60%;
+  width: 50%;
   background-color: #ececea;
   border-radius: 50px ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -214,7 +224,7 @@
 }
 
 .text-title {
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .card-arrow {
@@ -285,7 +295,7 @@
   justify-content: center;
   align-items: center;
   height: 8vh;
-  width: 25%;
+  width: 180px;
   background-color: #ececea;
   border-radius: 50px ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -293,19 +303,25 @@
 }
 .internship-card .text-title {
   font-size: 1.5rem;
-  justify-content: baseline;
+  margin: 0 !important;
 }
 .internship-card .card-arrow {
   font-size: 1.5rem;
 }
 .internship .detail{
-  margin: 2% 10% 2% 17%;
+  margin: 2% 10%;
   font-weight: normal;
 }
 
 /* connect page css */
 .connect{
+  background-color: #e9eefa;
+  margin-top: 60px;
+  padding-top: 5px;
   min-height: 400px;
+}.connect .main-title{
+  margin: 3% 5%;
+  color: #002d5b !important;
 }
 .social-icons {
   margin-top: 20px;

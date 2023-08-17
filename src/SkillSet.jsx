@@ -10,8 +10,8 @@ function SkillSet(){
         <div className='skill_set'>
             <h3 className='main-title'>Mastering the Skillset</h3>
             <div className='web'>
-                <h3 className='title'>Web Technology</h3>
-                <p className='detail'>"Embarking on a journey of web development since my college days, I've harnessed the power of code to breathe life into captivating digital experiences. With a fervent passion for crafting interactive web solutions, I've woven intricate lines of code into meaningful projects that blend form and function. Each project I've undertaken is a testament to my commitment to innovation, where pixels transform into immersive user journeys. Join me as I continue to explore the limitless horizons of web development, creating digital landscapes that captivate and inspire."</p>
+                <h3 className='title text-center'>Web Technology</h3>
+                <p className='detail'>"Embarking on web development since college, I've crafted interactive solutions that blend form and function. Each project is an innovative journey, turning pixels into immersive user experiences. Join me in exploring limitless horizons, creating captivating digital landscapes."</p>
                 <div className="project-card" onClick=''>
                     <div className="card-content">
                         <div className="card-details">
@@ -44,8 +44,8 @@ function SkillSet(){
 
             </div>
             <div className='web pt-5'>
-                <h3 className='title'>UI | UX Design</h3>
-                <p className='detail'>"Embarking on a journey of web development since my college days, I've harnessed the power of code to breathe life into captivating digital experiences. With a fervent passion for crafting interactive web solutions, I've woven intricate lines of code into meaningful projects that blend form and function. Each project I've undertaken is a testament to my commitment to innovation, where pixels transform into immersive user journeys. Join me as I continue to explore the limitless horizons of web development, creating digital landscapes that captivate and inspire."</p>
+                <h3 className='title text-center'>UI / UX Design</h3>
+                <p className='detail'>"I design UI/UX experiences that harmonize aesthetics and functionality, crafting intuitive interfaces for immersive digital journeys. Let's reshape the digital realm with captivating designs that redefine user interactions."</p>
                 <div className="project-card" onClick=''>
                     <div className="card-content">
                         <div className="card-details">
@@ -62,8 +62,8 @@ function SkillSet(){
                 </div>
             </div>
             <div className='web pt-5'>
-                <h3 className='title'>Graphic Design</h3>
-                <p className='detail'>"Embarking on a journey of web development since my college days, I've harnessed the power of code to breathe life into captivating digital experiences. With a fervent passion for crafting interactive web solutions, I've woven intricate lines of code into meaningful projects that blend form and function. Each project I've undertaken is a testament to my commitment to innovation, where pixels transform into immersive user journeys. Join me as I continue to explore the limitless horizons of web development, creating digital landscapes that captivate and inspire."</p>
+                <h3 className='title text-center'>Graphic Design</h3>
+                <p className='detail'>"I merge creativity with design principles to craft impactful graphics. From concept to creation, I transform ideas into visuals, adding aesthetic brilliance. Let's bring your visions to life through captivating graphic designs."</p>
                 <div className="project-card" onClick=''>
                     <div className="card-content">
                         <div className="card-details">

@@ -9,7 +9,7 @@ import python from './images/python.png'
 import php from './images/php.png'
 import mysql from './images/mysql.png'
 import figma from './images/figma.png'
-import adobe from './images/adobe.png'
+import xampp from './images/xampp.png'
 import codeigniter from './images/codeigniter.png'
 
 
@@ -17,9 +17,8 @@ import codeigniter from './images/codeigniter.png'
 function Technologies(){
     return(
         <div className='technologies'>
-            <h3 className='main-title'>Technologies</h3>
+            <h3 className='main-title'>Programming Languages, Tools & Frameworks</h3>
             <div className='languages'> 
-                <h3 className='title'>Programming Languages</h3>
                 <div className='d-flex justify-content-center tech-images'>
                     <img src={html} alt="html" className="tech-icon" />
                     <img src={css} alt="css" className="tech-icon" />
@@ -32,10 +31,9 @@ function Technologies(){
 
             </div>
             <div className='tools'> 
-                <h3 className='title'>Tools & Frameworks</h3>
                 <div className='d-flex justify-content-center tech-images'>
                     <img src={figma} alt="figma" className="tech-icon" />
-                    <img src={adobe} alt="adobe" className="tech-icon" />
+                    <img src={xampp} alt="adobe" className="tech-icon" />
                     <img src={codeigniter} alt="codeigniter" className="tech-icon" />
                 </div>
 
