@@ -16,7 +16,7 @@ import codeigniter from './images/codeigniter.png'
 
 function Technologies(){
     return(
-        <div className='technologies'>
+        <div className='technologies' id='tools-languages'>
             <h3 className='main-title'>Programming Languages, Tools & Frameworks</h3>
             <div className='languages'> 
                 <div className='d-flex justify-content-center tech-images'>

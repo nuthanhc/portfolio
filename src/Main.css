@@ -27,6 +27,10 @@
   list-style-type: none;
   margin-right: 30px;
 }
+.nav-lists li a{
+  text-decoration: none;
+}
+
 
 /* Media query for mobile view */
 @media (max-width: 768px) {
@@ -40,6 +44,7 @@
   .nav-title {
     margin-bottom: 20px;
     text-align: center;
+    font-size: 24px; 
   }
 
   .nav-lists ul {
@@ -52,6 +57,19 @@
   .nav-lists li {
     list-style-type: none;
     margin-right: 15px;
+    font-size: 18px; 
+  }
+}
+@media (max-width: 585px) {
+  .header {
+    padding: 20px 20px;
+  }
+  .nav-title {
+    font-size: 20px; /* Adjust the font size for the navigation title */
+  }
+
+  .nav-lists li {
+    font-size: 12px; /* Adjust the font size for the navigation items */
   }
 }
 
@@ -63,7 +81,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5% 10%;
+  padding: 3% 10%;
 }
 
 .profile_bio {
@@ -72,8 +90,8 @@
   color: #002d5b !important;
 }
 .profile_bio h1{
-  font-size: 70px;
-  font-weight: 700;
+  font-size: 50px;
+  font-weight: 600;
   font-stretch: expanded;
 }.profile_bio p{
   color: #464d65;
@@ -106,16 +124,19 @@
 
 
 /* Media query for tablet and mobile view */
-@media (max-width: 768px) {
+@media (max-width: 953px) {
   .about_me {
-    flex-direction: column; 
+    flex-direction: column;
+    padding-top: 40px; 
     text-align: center;
     min-height: 100px;
   }
   .profile_bio h1{
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 500;
     font-stretch: expanded;
+  }.profile_bio p{
+    font-size: 15px;
   }
 
   .profile_img {
@@ -151,8 +172,25 @@
     padding-top: 5%;
   } */
 }
+@media (max-width: 1100px) and (min-width: 954px) {
+  .profile_bio p {
+    font-size: 17px;
+    line-height: 24px;
+  }.profile_bio h1{
+    font-size: 50px;
+    font-weight: 600;
+    font-stretch: expanded;
+  }.profile_bio {
+    max-width: 60%;
+    padding-top: 6%;
+  }.profile_img {
+    max-width: 40%;
+  }
+}
+
+
 /* common CSS */
-.main-title{
+.main-title {
   margin: 8% 10%;
   font-size: 40px;
   color: #0d1b2a;
@@ -161,25 +199,17 @@
   margin-bottom: 35px;
   line-height: 1.5;
 }
-.detail{
+
+.detail {
   font-family: 'Montserrat', sans-serif;
   color: #10285d;
   font-size: 18px;
   line-height: 30px;
-  margin: 2% 12%;
+  margin: 2% 10%; 
   text-align: justify;
   font-weight: normal;
 }
-.quotation-mark {
-  font-size: 2em;
-  color: #10285d; 
-}
-
-/* CSS for SkillSet.jsx file */
-.skill_set .main-title{
-  margin: 4% 10%;
-}
-.web .title{
+.title {
   background-color: #e9eefa;
   font-size: 30px;
   font-weight: 700;
@@ -187,12 +217,55 @@
   margin: 2% 10%;
 }
 
+@media (max-width: 768px) {
+  .main-title {
+    font-size: 32px; 
+    margin: 8% 5%; 
+  }
+
+  .detail {
+    font-size: 16px; 
+    margin: 2% 5%; 
+    line-height: 28px; 
+  }
+  .title {
+    font-size: 24px; 
+    padding: 15px; 
+    margin: 2% 5%; 
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 28px; 
+    margin: 8% 2%; 
+  }
+
+  .detail {
+    font-size: 13px; 
+    margin: 2% 5%; 
+    line-height: 24px; 
+  }
+  .title {
+    font-size: 20px; 
+    padding: 10px; 
+    margin: 2% 5%; 
+  }
+}
+
+
+/* CSS for SkillSet.jsx file */
+.skill_set .main-title{
+  margin: 4% 10%;
+}
+
+
 /* CSS for ProjectCard  */
 .project-card {
   cursor: pointer;
   display: flex;
   justify-content: center;
-  align-items: center; /* Vertically center content */
+  align-items: center; 
   height: 18vh;
   width: 50%;
   background-color: #ececea;
@@ -208,7 +281,11 @@
   width: 100%;
   padding: 0 10px;
 }
-
+.card-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .card-image img {
   width: 100px; 
   height: 100px; 
@@ -266,25 +343,61 @@
     }
 
   }
+  @media (max-width: 380px) {
+    .text-title {
+      font-size: 0.95rem;
+    }
+
+    .text-para {
+      font-size: 0.75rem !important;
+    }
+    .card-arrow {
+      font-size: 1.5rem;
+    }
+  }
 }
 
+
 /* css for technologies */
-.technologies .title{
+.technologies .title {
   font-size: 30px;
   font-weight: 700;
   margin: 1% 10%;
 }
+
 .tech-images {
   margin: 5%;
-  /* justify-content: space-between; */
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
   align-items: center;
 }
 
 .tech-icon {
-  width: 100px;
-  height: 100px;
-  margin-right: 20px; 
+  width: 80px; 
+  height: 80px;
+  margin: 10px; 
 }
+
+@media (max-width: 768px) {
+  .tech-icon {
+    width: 60px; 
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tech-images {
+    margin: 5% 0;
+  }
+  
+  .tech-icon {
+    width: 40px;
+    height: 40px;
+    margin: 5px; 
+  }
+}
+
 
 
 /* Internship  page CSS*/
@@ -294,46 +407,147 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 8vh;
+  height: 60px;
   width: 180px;
   background-color: #ececea;
   border-radius: 50px ;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
   margin: 3% auto 0 auto;
 }
+
 .internship-card .text-title {
   font-size: 1.5rem;
   margin: 0 !important;
 }
+
 .internship-card .card-arrow {
   font-size: 1.5rem;
 }
-.internship .detail{
+
+.internship .detail {
   margin: 2% 10%;
   font-weight: normal;
 }
 
+/* Media queries for tablet views */
+@media (max-width: 768px) {
+  .internship-card {
+    height: 45px;
+    width: 150px;
+  }
+  .internship-card .text-title {
+    font-size: 1.3rem;
+  }
+  .internship-card .card-arrow {
+    font-size: 1.3rem;
+  }
+}
+
+/* Media queries for mobile views */
+@media (max-width: 560px) {
+  .internship-card {
+    height: 45px;
+    width: 140px;
+  }
+  .internship-card .text-title {
+    font-size: 1.2rem;
+  }
+  .internship-card .card-arrow {
+    font-size: 1.2rem;
+  }
+  .internship .detail {
+    margin: 2% 5%;
+  }
+}
+
+
 /* connect page css */
-.connect{
+/* Base styles */
+.connect {
   background-color: #e9eefa;
   margin-top: 60px;
   padding-top: 5px;
   min-height: 400px;
-}.connect .main-title{
+}.connect .detail{
+  text-align: center;
+}
+
+.connect .main-title {
   margin: 3% 5%;
   color: #002d5b !important;
 }
+
 .social-icons {
   margin-top: 20px;
 }
 
 .social-icons i {
-  font-size: 3rem; /* Increase icon size */
-  margin: 0 15px; /* Add spacing between icons */
-  color: #333; /* Change the color as needed */
+  font-size: 3rem;
+  margin: 0 15px;
+  color: #333;
   transition: color 0.3s ease-in-out;
 }
 
 .social-icons i:hover {
-  color: #007bff; /* Change the hover color */
+  color: #007bff;
+}
+
+/* Media queries for tablet views */
+@media (max-width: 768px) {
+  .connect {
+    min-height: 300px;
+  }
+  .connect .main-title {
+    margin: 3% 3%;
+  }
+}
+
+/* Media queries for mobile views */
+@media (max-width: 560px) {
+  .connect {
+    min-height: 250px;
+  }
+  .connect .main-title {
+    font-size: 24px;
+    margin: 3% 2%;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+  .social-icons i {
+    font-size: 2.5rem;
+    margin: 0 10px;
+  }
+}
+
+
+
+/* Resume.jsx & certificate.jsx page CSS */
+.dialog-content {
+  width: 100%;
+  max-height: 80vh;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.dialog-content img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.dialog-content::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+.dialog-close-button {
+  color: white;
+  background-color: #002d5b; 
+  border: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.dialog-close-button:hover {
+  background-color: #0056b3;
 }
