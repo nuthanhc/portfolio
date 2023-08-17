@@ -1,0 +1,323 @@
+
+/* CSS for Header.jsx file */
+.header {
+  /* color: #ECF39E; */
+  color: #0d1b2a;;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 40px 100px 40px 100px;
+  background-color: #e9eefa;
+  /* background-color: #0d1b2a; */
+}
+
+.nav-title {
+  /* color: aliceblue; */
+  color: #0d1b2a;;
+}
+
+.nav-lists ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-lists li {
+  list-style-type: none;
+  margin-right: 30px;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .header {
+    /* padding: 20px 40px; */
+    /* min-height: 60px; */
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-title {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .nav-lists ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .nav-lists li {
+    list-style-type: none;
+    margin-right: 15px;
+  }
+}
+
+/* CSS for AboutMe.jsx file */
+.about_me {
+  margin-top: -30px;
+  min-height: 500px;
+  background-color: #e9eefa;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5% 10%;
+}
+
+.profile_bio {
+  max-width: 50%;
+  padding-top: 9%;
+  color: #002d5b;
+}
+.profile_bio h1{
+  font-size: 70px;
+  font-weight: 700;
+  font-stretch: expanded;
+}.profile_bio p{
+  color: #464d65;
+  font-size: 19px;
+  line-height: 30px;
+  margin-bottom: 15px;
+  font-weight: normal;
+  padding-top: 5%;
+}
+
+.profile_img {
+  padding-top: 5%;
+  max-width: 50%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  margin-left: 10%;
+}
+
+.profile_img img {
+  width: 70%;
+  max-width: 150%;
+  height: auto;
+  background-blend-mode:color-burn;
+  border-radius: 5%;
+  /* opacity: .7; */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+
+/* Media query for tablet and mobile view */
+@media (max-width: 768px) {
+  .about_me {
+    flex-direction: column; 
+    text-align: center;
+    min-height: 100px;
+  }
+  .profile_bio h1{
+    font-size: 40px;
+    font-weight: 500;
+    font-stretch: expanded;
+  }
+
+  .profile_img {
+    max-width: 100%;
+    padding-right: 0% !important;
+    margin: 20px;
+  }
+
+  .profile_img img {
+    width: 50%;
+    max-width: 80%;
+    max-height: 300px;
+  }
+
+  .profile_bio {
+    padding-top: 0 !important;
+    max-width: 100%;
+  }
+}
+@media (max-width: 412px) {
+  .profile_img img {
+    width: 70%;
+    max-width: 80%;
+    max-height: 300px;
+  }
+
+}
+@media (max-width: 1024px) {
+  .profile_bio {
+    padding-top: 5%;
+  }
+  /* .profile_img {
+    padding-top: 5%;
+  } */
+}
+/* common CSS */
+.main-title{
+  margin: 8% 10%;
+  font-size: 40px;
+  color: #0d1b2a;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 35px;
+  line-height: 1.5;
+}
+.detail{
+  color: #10285d;
+  font-size: 18px;
+  line-height: 30px;
+  margin: 2% 5% 2% 12%;
+  font-weight: normal;
+}
+
+/* CSS for SkillSet.jsx file */
+
+.web .title{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 2% 10%;
+}
+
+/* CSS for ProjectCard  */
+.project-card {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center content */
+  height: 18vh;
+  width: 60%;
+  background-color: #ececea;
+  border-radius: 50px ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 3% auto 0 auto;
+}
+
+.card-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 10px;
+}
+
+.card-image img {
+  width: 100px; 
+  height: 100px; 
+  border-radius: 50%;
+}
+.card-details{
+  flex: 4;
+  display: flex;
+}
+.content-text{
+  flex: 4;
+  margin: 5px 5% ;
+}
+
+.text-title {
+  font-size: 2rem;
+}
+
+.card-arrow {
+  font-size: 2rem;
+}
+/* Media queries for mobile and tablet views */
+@media (max-width: 768px) {
+  .card-image img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .text-title {
+    font-size: 1.5rem;
+  }
+
+  .content-text {
+    flex: 3;
+    margin: 5px 2%;
+  }
+
+  /* Additional media query for screens below 560px */
+  @media (max-width: 560px) {
+    .card-image img {
+      width: 60px;
+      height: 60px;
+    }
+    .project-card {
+      border-radius: 2px;
+      width: 90%;
+    }
+    .text-title {
+      font-size: 1.2rem;
+    }
+
+    .content-text {
+      flex: 2;
+      margin: 5px 1%;
+    }
+
+  }
+}
+
+/* css for technologies */
+.technologies .title{
+  font-size: 30px;
+  font-weight: 700;
+  margin: 1% 10%;
+}
+.tech-images {
+  margin: 5%;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.tech-icon {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px; 
+}
+
+
+/* Internship  page CSS*/
+
+.internship-card {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 8vh;
+  width: 25%;
+  background-color: #ececea;
+  border-radius: 50px ;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 3% auto 0 auto;
+}
+.internship-card .text-title {
+  font-size: 1.5rem;
+  justify-content: baseline;
+}
+.internship-card .card-arrow {
+  font-size: 1.5rem;
+}
+.internship .detail{
+  margin: 2% 10% 2% 17%;
+  font-weight: normal;
+}
+
+/* connect page css */
+.connect{
+  min-height: 400px;
+}
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons i {
+  font-size: 3rem; /* Increase icon size */
+  margin: 0 15px; /* Add spacing between icons */
+  color: #333; /* Change the color as needed */
+  transition: color 0.3s ease-in-out;
+}
+
+.social-icons i:hover {
+  color: #007bff; /* Change the hover color */
+}
