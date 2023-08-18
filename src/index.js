@@ -4,7 +4,7 @@ import './index.css';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import SkillSet from './SkillSet';
-import Technologies from './Technologies';
+import Tools from './Tools';
 import Internship from './Internship';
 import Connect from './Connect';
 
@@ -16,7 +16,7 @@ root.render(
     <Header />
     <AboutMe />
     <SkillSet/>
-    <Technologies/>
+    <Tools/>
     <Internship/>
     <Connect/>
   </React.StrictMode>
