@@ -3,7 +3,7 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 // import { BrowserRouter as Link } from 'react-router-dom';
 import './Main.css';
-import Resume from './resume';
+import Resume from './Resume';
 
 
 function AboutMe(){
