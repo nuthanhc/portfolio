@@ -4,8 +4,8 @@ import './index.css';
 import Header from './Header';
 import AboutMe from './AboutMe';
 import SkillSet from './SkillSet';
-import Technologies from './technologies';
-import Internship from './internship';
+import Technologies from './Technologies';
+import Internship from './Internship';
 import Connect from './Connect';
 
 

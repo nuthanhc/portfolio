@@ -514,8 +514,11 @@
   .social-icons {
     margin-top: 10px;
   }
+  .social-icons h5{
+    font-size: 14px;
+  }
   .social-icons i {
-    font-size: 2.5rem;
+    font-size: 20px;
     margin: 0 10px;
   }
 }
@@ -550,4 +553,20 @@
 }
 .dialog-close-button:hover {
   background-color: #0056b3;
+}
+
+/* Media query for tablet view */
+@media (max-width: 768px) {
+  .dialog-close-button {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+/* Media query for mobile view */
+@media (max-width: 480px) {
+  .dialog-close-button {
+    font-size: 10px;
+    padding: 4px 8px;
+  }
 }
