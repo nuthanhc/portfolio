@@ -3,7 +3,7 @@ import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import Resume from './images/resume.jpg';
+import resumeimg from './images/resume.jpg';
 import './Main.css';
 
 export default function MaxWidthDialog() {
@@ -20,7 +20,7 @@ export default function MaxWidthDialog() {
   const handleSave = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement('a');
-    link.href = Resume;
+    link.href = resumeimg;
     link.download = 'resume.jpg';
     document.body.appendChild(link);
     link.click();
@@ -39,7 +39,7 @@ export default function MaxWidthDialog() {
         onClose={handleClose}
       >
         <DialogContent className="dialog-content">
-          <img src={Resume} alt="" />
+          <img src={resumeimg} alt="" />
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleSave}>Download</button>

@@ -16,7 +16,7 @@ import codeigniter from './images/codeigniter.png';
 
 
 
-function Technologies(){
+function Tools(){
     return(
         <div className='technologies' id='tools-languages'>
             <h3 className='main-title'>Programming Languages, Tools & Frameworks</h3>
@@ -46,4 +46,4 @@ function Technologies(){
     );
 }
 
-export default Technologies;
+export default Tools;
