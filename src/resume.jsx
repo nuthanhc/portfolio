@@ -42,7 +42,7 @@ export default function MaxWidthDialog() {
           <img src={Resume} alt="" />
         </DialogContent>
         <DialogActions>
-          <button className="dialog-close-button" onClick={handleSave}>Save</button>
+          <button className="dialog-close-button" onClick={handleSave}>Download</button>
           <button className="dialog-close-button" onClick={handleClose}>Close</button>
         </DialogActions>
       </Dialog>

@@ -1,16 +1,18 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './Main.css';
-import html from './images/html.png'
-import css from './images/css.png'
-import js from './images/js.png'
-import react from './images/react.png'
-import python from './images/python.png'
-import php from './images/php.png'
-import mysql from './images/mysql.png'
-import figma from './images/figma.png'
-import xampp from './images/xampp.png'
-import codeigniter from './images/codeigniter.png'
+import html from './images/html.png';
+import css from './images/css.png';
+import js from './images/js.png';
+import react from './images/react.png';
+import python from './images/python.png';
+import php from './images/php.png';
+import mysql from './images/mysql.png';
+import git from './images/git.png';
+import figma from './images/figma.png';
+import xampp from './images/xampp.png';
+import codeigniter from './images/codeigniter.png';
+
 
 
 
@@ -32,6 +34,7 @@ function Technologies(){
             </div>
             <div className='tools'> 
                 <div className='d-flex justify-content-center tech-images'>
+                    <img src={git} alt="git" className="tech-icon"/>
                     <img src={figma} alt="figma" className="tech-icon" />
                     <img src={xampp} alt="adobe" className="tech-icon" />
                     <img src={codeigniter} alt="codeigniter" className="tech-icon" />
