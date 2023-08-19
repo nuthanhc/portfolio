@@ -216,6 +216,10 @@
   padding: 20px;
   margin: 2% 10%;
 }
+a{
+  color: black !important;
+  text-decoration: none !important;
+}
 
 @media (max-width: 768px) {
   .main-title {

@@ -41,25 +41,27 @@ function SkillSet() {
           </div>
         </a>
 
-        <div className="project-card" onClick="">
-          <div className="card-content">
-            <div className="card-details">
-              <div className="card-image">
-                <img src={servicelogo} alt="Project" />
+        <a href="https://doarclab.com/">
+          <div className="project-card">
+            <div className="card-content">
+              <div className="card-details">
+                <div className="card-image">
+                  <img src={servicelogo} alt="Project" />
+                </div>
+                <div className="content-text">
+                  <h3 className="text-title">Home Service Management</h3>
+                  <p className="text-para">
+                    "This project simplifies your daily needs by providing a
+                    variety of at-home services."
+                  </p>
+                </div>
               </div>
-              <div className="content-text">
-                <h3 className="text-title">Home Service Management</h3>
-                <p className="text-para">
-                  "This project simplifies your daily needs by providing a
-                  variety of at-home services."
-                </p>
+              <div className="card-arrow">
+                <i class="bi bi-caret-right-fill"></i>
               </div>
-            </div>
-            <div className="card-arrow">
-              <i class="bi bi-caret-right-fill"></i>
             </div>
           </div>
-        </div>
+        </a>
       </div>
       <div className="web pt-5">
         <h3 className="title text-center">UI / UX Design</h3>
