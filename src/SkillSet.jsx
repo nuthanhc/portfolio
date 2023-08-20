@@ -19,7 +19,7 @@ function SkillSet() {
           exploring limitless horizons, creating captivating digital
           landscapes."
         </p>
-        <a href="http://getpets.000.pe/">
+        <a href="https://getpets.000.pe/">
           <div className="project-card">
             <div className="card-content">
               <div className="card-details">
