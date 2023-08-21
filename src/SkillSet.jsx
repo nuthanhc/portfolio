@@ -1,4 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
+import { Link } from "react-router-dom";
 import petlogo from "./images/petlogo.png";
 import servicelogo from "./images/servicelogo.jpg";
 import uiuxlogo from "./images/uiuxlogo.png";
@@ -85,25 +86,29 @@ function SkillSet() {
           journeys. Let's reshape the digital realm with captivating designs
           that redefine user interactions."
         </p>
-        <div className="project-card" onClick="">
-          <div className="card-content">
-            <div className="card-details">
-              <div className="card-image">
-                <img src={uiuxlogo} alt="Project" />
+        <Link to="/UiUxGallery">
+          <div className="project-card">
+            <div className="card-content">
+              <div className="card-details">
+                <div className="card-image">
+                  <img src={uiuxlogo} alt="Project" />
+                </div>
+                <div className="content-text">
+                  <h3 className="text-title">
+                    Design Delights: UI/UX Showcase
+                  </h3>
+                  <p className="text-para">
+                    "Come Walk Through My Gallery of Design Delights: Explore
+                    the World of UI/UX Creations"
+                  </p>
+                </div>
               </div>
-              <div className="content-text">
-                <h3 className="text-title">Design Delights: UI/UX Showcase</h3>
-                <p className="text-para">
-                  "Come Walk Through My Gallery of Design Delights: Explore the
-                  World of UI/UX Creations"
-                </p>
+              <div className="card-arrow">
+                <i class="bi bi-caret-right-fill"></i>
               </div>
-            </div>
-            <div className="card-arrow">
-              <i class="bi bi-caret-right-fill"></i>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
       <div className="web pt-5">
         <h3 className="title text-center">Graphic Design</h3>
@@ -113,27 +118,29 @@ function SkillSet() {
           adding aesthetic brilliance. Let's bring your visions to life through
           captivating graphic designs."
         </p>
-        <div className="project-card" onClick="">
-          <div className="card-content">
-            <div className="card-details">
-              <div className="card-image">
-                <img src={gdlogo} alt="Project" />
+        <Link to="/GraphicGallery">
+          <div className="project-card">
+            <div className="card-content">
+              <div className="card-details">
+                <div className="card-image">
+                  <img src={gdlogo} alt="Project" />
+                </div>
+                <div className="content-text">
+                  <h3 className="text-title">
+                    Pixel Perfection: Visual Art Gallery
+                  </h3>
+                  <p className="text-para">
+                    "Discover a Mesmerizing Journey through Creative Pixels and
+                    Visual Wonders."
+                  </p>
+                </div>
               </div>
-              <div className="content-text">
-                <h3 className="text-title">
-                  Pixel Perfection: Visual Art Gallery
-                </h3>
-                <p className="text-para">
-                  "Discover a Mesmerizing Journey through Creative Pixels and
-                  Visual Wonders."
-                </p>
+              <div className="card-arrow">
+                <i class="bi bi-caret-right-fill"></i>
               </div>
-            </div>
-            <div className="card-arrow">
-              <i class="bi bi-caret-right-fill"></i>
             </div>
           </div>
-        </div>
+        </Link>
       </div>
     </div>
   );
