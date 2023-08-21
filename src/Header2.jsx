@@ -1,4 +1,5 @@
 import './Main.css';
+import { Link } from 'react-router-dom';
 
 function Header2() {
   return (
@@ -6,7 +7,7 @@ function Header2() {
       <div className='nav-title'></div>
       <div className='nav-lists'>
         <ul>
-          <li><a href="https://nuthan-hc.vercel.app/">Main Page</a></li>
+          <li><Link to="/">Home</Link></li>
         </ul>
       </div>
     </div>

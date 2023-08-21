@@ -7,6 +7,7 @@ import dishes from "./images/dishes.png";
 import cosmetic from "./images/cosmetic.png";
 import loginpage from "./images/loginpage.png";
 import foodie from "./images/foodie.png";
+import { FaFigma } from "react-icons/fa";
 
 function UiUxCards() {
   return (
@@ -26,6 +27,11 @@ function UiUxCards() {
               My utilization of Figma's capabilities exemplified my attention to
               detail, user-centric approach, and aptitude for UI design."
             </p>
+            <div className="card-links text-center pb-3">
+              <a href="https://www.figma.com/file/jm8kYzCHiQwwTfKjh4O3Dr/notification-bar?type=design&mode=design&t=5nG4dGaNQpIzs7z2-0">
+                <FaFigma /> View Figma File
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -44,6 +50,11 @@ function UiUxCards() {
               templates reflect my proficiency in user experience design and my
               ability to create engaging and visually appealing interfaces."
             </p>
+            <div className="card-links text-center pb-3">
+              <a href="https://www.figma.com/file/OTgjtIRzgJvnxvc7ZducIA/Loading-Screen-Animation?type=design&node-id=0%3A1&mode=design&t=5nG4dGaNQpIzs7z2-1">
+                <FaFigma />  View Figma File
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -62,6 +73,11 @@ function UiUxCards() {
               layouts and enticing visuals, I effectively conveyed the dish's
               details, enhancing the overall user experience."
             </p>
+            <div className="card-links text-center pb-3">
+              <a href="https://www.figma.com/file/TrdHep92NdBSi6CeFift3s/Untitled?type=design&mode=design&t=5nG4dGaNQpIzs7z2-0">
+                <FaFigma />  View Figma File
+              </a>
+            </div>
           </div>
         </div>
       </div>

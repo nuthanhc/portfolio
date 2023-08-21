@@ -673,6 +673,10 @@ a{
   justify-content: center;
   align-items: center;
 }
+.uiux-hero .profile_bio{
+  color: #fff !important;
+  padding-top: 0 !important;
+}
 @media (max-width: 768px) {
   .uiux-hero {
     width: 100%;
@@ -736,7 +740,9 @@ a{
   text-align: justify;
   padding: 0 20px; 
 }
-
+.uiux-cards .card-container-title{
+  font-weight: 700;
+}
 /* Media queries for mobile and tablet views */
 @media (max-width: 768px) {
   .uiux-cards .card-container {
@@ -772,6 +778,36 @@ a{
     .uiux-cards .card-img img {
       max-height: 260px; 
     }
+  }
+}
+/* Graphic Design */
+/* Graphic hero */
+.graphic-hero {
+  text-align: center;
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.graphic-hero .profile_bio{
+  padding-top: 0 !important;
+}
+@media (max-width: 768px) {
+  .graphic-hero {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+@media (max-width: 560px) {
+  .graphic-hero {
+    width: 100%;
+    height: 200px; 
   }
 }
 
