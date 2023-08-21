@@ -5,7 +5,7 @@ import './index.css';
 import Footer from './Connect';
 import UiUxGallery from './UiUxGallery';
 import Home from './Home';
-// import GraphicGallery from './GraphicGallery';
+import GraphicGallery from './GraphicGallery';
 
 const Index = () => {
   return (
@@ -14,7 +14,7 @@ const Index = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/UiUxGallery" element={<UiUxGallery />} />
-          {/* <Route path="/GraphicGallery" element={<GraphicGallery />} /> */}
+          <Route path="/GraphicGallery" element={<GraphicGallery />} />
         </Routes>
         <Footer/>
       </Router>

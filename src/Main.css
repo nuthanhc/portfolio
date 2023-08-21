@@ -812,4 +812,28 @@ a{
 }
 
 
+.sub-gallery {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-card {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .gallery-card {
+    width: 100%;
+  }
+}
+
+
 
