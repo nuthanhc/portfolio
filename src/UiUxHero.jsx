@@ -7,7 +7,7 @@ import heroimage from './images/uiuxhero.png';
 function UiUxHero(){
     return(
         <div className='uiux-hero' style={{ backgroundImage: `url(${heroimage})` }}>
-            <h1 className='profile_bio text-white'>UI / UX Gallery</h1>
+            <h1 className='profile_bio text-white'>UI / UX Design's Gallery</h1>
         </div>
     );
 }

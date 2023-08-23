@@ -5,8 +5,8 @@ import notification from "./images/notificationbar.png";
 import screenloading from "./images/screenloading.png";
 import dishes from "./images/dishes.png";
 import cosmetic from "./images/cosmetic.png";
-import loginpage from "./images/loginpage.png";
-import foodie from "./images/foodie.png";
+// import loginpage from "./images/loginpage.png";
+// import foodie from "./images/foodie.png";
 import { FaFigma } from "react-icons/fa";
 
 function UiUxCards() {
@@ -36,7 +36,7 @@ function UiUxCards() {
         </div>
       </div>
       <div className="card-container">
-        <h3 className="card-container-title">Screen Loading UI</h3>
+        <h3 className="card-container-title">Screen Loading Animation</h3>
         <div className="card-card-reverse">
           <div className="card-img">
             <img src={screenloading} alt="" loading="lazy"/>
@@ -100,7 +100,7 @@ function UiUxCards() {
           </div>
         </div>
       </div>
-      <div className="card-container">
+      {/* <div className="card-container">
         <h3 className="card-container-title">Login Page UI</h3>
         <div className="card-card">
           <div className="card-img">
@@ -136,7 +136,7 @@ function UiUxCards() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
