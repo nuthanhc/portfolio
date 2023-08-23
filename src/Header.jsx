@@ -9,7 +9,7 @@ function Header() {
           <li><a href="#skillset">SkillSet</a></li>
           <li><a href="#tools-languages">Tools & Languages</a></li>
           <li><a href="#internship">Internship</a></li>
-          <li><a href="#connect">Connect</a></li>
+          <li><a href="#footer">Contact</a></li>
         </ul>
       </div>
     </div>

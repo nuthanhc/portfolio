@@ -15,7 +15,7 @@ function AboutMe(){
                     <Resume/>
                 </div> 
             </div>
-            <div className='profile_img'><img src={profile} alt="" /></div>
+            <div className='profile_img'><img src={profile} alt="" loading="lazy" /></div>
         </div>
     );
 }

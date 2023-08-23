@@ -39,7 +39,7 @@ export default function MaxWidthDialog() {
         onClose={handleClose}
       >
         <DialogContent className="dialog-content">
-          <img src={resumeimg} alt="" />
+          <img src={resumeimg} alt="" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleSave}>Download</button>

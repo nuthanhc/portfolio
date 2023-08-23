@@ -22,22 +22,22 @@ function Tools(){
             <h3 className='main-title'>Programming Languages, Tools & Frameworks</h3>
             <div className='languages'> 
                 <div className='d-flex justify-content-center tech-images'>
-                    <img src={html} alt="html" className="tech-icon" />
-                    <img src={css} alt="css" className="tech-icon" />
-                    <img src={js} alt="js" className="tech-icon" />
-                    <img src={react} alt="react" className="tech-icon" />
-                    <img src={python} alt="python" className="tech-icon" />
-                    <img src={php} alt="php" className="tech-icon" />
-                    <img src={mysql} alt="mysql" className="tech-icon" />
+                    <img src={html} alt="html" className="tech-icon" loading="lazy"/>
+                    <img src={css} alt="css" className="tech-icon" loading="lazy"/>
+                    <img src={js} alt="js" className="tech-icon" loading="lazy"/>
+                    <img src={react} alt="react" className="tech-icon" loading="lazy"/>
+                    <img src={python} alt="python" className="tech-icon" loading="lazy"/>
+                    <img src={php} alt="php" className="tech-icon" loading="lazy"/>
+                    <img src={mysql} alt="mysql" className="tech-icon" loading="lazy"/>
                 </div>
 
             </div>
             <div className='tools'> 
                 <div className='d-flex justify-content-center tech-images'>
-                    <img src={git} alt="git" className="tech-icon"/>
-                    <img src={figma} alt="figma" className="tech-icon" />
-                    <img src={xampp} alt="adobe" className="tech-icon" />
-                    <img src={codeigniter} alt="codeigniter" className="tech-icon" />
+                    <img src={git} alt="git" className="tech-icon"loading="lazy"/>
+                    <img src={figma} alt="figma" className="tech-icon" loading="lazy"/>
+                    <img src={xampp} alt="adobe" className="tech-icon" loading="lazy"/>
+                    <img src={codeigniter} alt="codeigniter" className="tech-icon" loading="lazy"/>
                 </div>
 
             </div>

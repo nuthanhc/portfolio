@@ -20,7 +20,7 @@ function GraphicCards() {
         <h3 className="card-container-title">College Fest Posters</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={collegefest} alt="" className="hover-zoom" />
+            <img src={collegefest} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -43,7 +43,7 @@ function GraphicCards() {
         <h3 className="card-container-title">Client Shop Banner</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={clientposter} alt="" className="hover-zoom" />
+            <img src={clientposter} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -67,7 +67,7 @@ function GraphicCards() {
         <h3 className="card-container-title">Pan Shop Layout Design</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={internship} alt="" />
+            <img src={internship} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -90,7 +90,7 @@ function GraphicCards() {
         <h3 className="card-container-title">Redesigned Image</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={redesignedimage} alt="" />
+            <img src={redesignedimage} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -113,24 +113,24 @@ function GraphicCards() {
         <h3 className="card-container-title">Other Posters & Banners</h3>
         <div className="sub-gallery">
           <div class="gallery-card">
-            <img src={sg1} alt="" />
+            <img src={sg1} alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg2} alt="" />
+            <img src={sg2} alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg4} alt="" />
+            <img src={sg4} alt="" loading="lazy"/>
           </div>
         </div>
         <div className="sub-gallery">
           <div class="gallery-card">
-            <img src={sg3} alt="" />
+            <img src={sg3} alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg5} alt="" />
+            <img src={sg5} alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg6} alt="" />
+            <img src={sg6} alt="" loading="lazy"/>
           </div>
         </div>
       </div>
