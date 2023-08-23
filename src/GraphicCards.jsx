@@ -17,7 +17,7 @@ function GraphicCards() {
   return (
     <div className="uiux-cards">
       <div className="card-container">
-        <h3 className="card-container-title">College Fest Posters</h3>
+        <h3 className="card-container-title">College Fest Poster's</h3>
         <div className="card-card">
           <div className="card-img">
             <img src={collegefest} alt="" loading="lazy"/>
@@ -64,7 +64,7 @@ function GraphicCards() {
         </div>
       </div>
       <div className="card-container">
-        <h3 className="card-container-title">Pan Shop Layout Design</h3>
+        <h3 className="card-container-title">Isometric Design</h3>
         <div className="card-card">
           <div className="card-img">
             <img src={internship} alt="" loading="lazy"/>
@@ -87,7 +87,7 @@ function GraphicCards() {
         </div>
       </div>
       <div className="card-container">
-        <h3 className="card-container-title">Redesigned Image</h3>
+        <h3 className="card-container-title">Gradient Desktop Wallpaper</h3>
         <div className="card-card-reverse">
           <div className="card-img">
             <img src={redesignedimage} alt="" loading="lazy"/>
@@ -110,7 +110,7 @@ function GraphicCards() {
         </div>
       </div>
       <div className="card-container">
-        <h3 className="card-container-title">Other Posters & Banners</h3>
+        <h3 className="card-container-title">Other Poster's & Banner's</h3>
         <div className="sub-gallery">
           <div class="gallery-card">
             <img src={sg1} alt="" loading="lazy"/>

@@ -3,7 +3,8 @@ import { Link } from '@mui/material';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import resumeimg from './images/resume.jpg';
+import DialogTitle from '@mui/material/DialogTitle';
+import doarclabhomepage from './images/doarclabhomepage.png';
 import './Main.css';
 
 export default function MaxWidthDialog() {
@@ -27,8 +28,11 @@ export default function MaxWidthDialog() {
         open={open}
         onClose={handleClose}
       >
+        <DialogTitle className="dialog-content">
+          <h5>Screenshot</h5>
+        </DialogTitle>
         <DialogContent className="dialog-content">
-          <img src={resumeimg} alt="" loading="lazy"/>
+          <img src={doarclabhomepage} alt="" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleClose}>Close</button>
