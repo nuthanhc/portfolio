@@ -5,6 +5,8 @@ import servicelogo from "./images/servicelogo.jpg";
 import uiuxlogo from "./images/uiuxlogo.png";
 import gdlogo from "./images/gdlogo.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
+import PetShopGallery from "./PetShopGallery";
+import HomeServiceGallery from "./HomeServiceGallery";
 import "./Main.css";
 
 function SkillSet() {
@@ -26,7 +28,7 @@ function SkillSet() {
             <div className="card">
               <div className="card-body">
                 <div className="card-img">
-                  <img src={petlogo} alt="Project" />
+                  <img src={petlogo} alt="Project" loading="lazy"/>
                 </div>
                 <div className="content">
                   <h3 className="card-title text-center">
@@ -48,12 +50,13 @@ function SkillSet() {
                 <a href="https://getpets.000.pe/">
                   <i class="bi bi-link"></i>
                 </a>
+                <PetShopGallery/>
               </div>
             </div>
             <div className="card">
               <div className="card-body">
                 <div className="card-img">
-                  <img src={servicelogo} alt="Project" />
+                  <img src={servicelogo} alt="Project" loading="lazy"/>
                 </div>
                 <div className="content">
                   <h3 className="card-title text-center">
@@ -73,6 +76,7 @@ function SkillSet() {
                 <a href="https://doarclab.com/">
                   <i class="bi bi-link"></i>
                 </a>
+                <HomeServiceGallery/>
               </div>
             </div>
           </div>
@@ -91,7 +95,7 @@ function SkillSet() {
             <div className="card-content">
               <div className="card-details">
                 <div className="card-image">
-                  <img src={uiuxlogo} alt="Project" />
+                  <img src={uiuxlogo} alt="Project" loading="lazy"/>
                 </div>
                 <div className="content-text">
                   <h3 className="text-title">
@@ -123,7 +127,7 @@ function SkillSet() {
             <div className="card-content">
               <div className="card-details">
                 <div className="card-image">
-                  <img src={gdlogo} alt="Project" />
+                  <img src={gdlogo} alt="Project" loading="lazy"/>
                 </div>
                 <div className="content-text">
                   <h3 className="text-title">

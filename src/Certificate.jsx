@@ -39,7 +39,7 @@ export default function CertificateDialog() {
       >
         {/* <DialogTitle>Certificate</DialogTitle> */}
         <DialogContent className="dialog-content"> 
-          <img src={CertificateImage} alt="Certificate" />
+          <img src={CertificateImage} alt="Certificate" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleClose}>Close</button>

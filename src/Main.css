@@ -472,18 +472,18 @@ a{
 }
 
 
-/* connect page css */
+/* footer page css */
 /* Base styles */
-.connect {
+.footer {
   background-color: #e9eefa;
   margin-top: 60px;
   padding-top: 5px;
   min-height: 400px;
-}.connect .detail{
+}.footer .detail{
   text-align: center;
 }
 
-.connect .main-title {
+.footer .main-title {
   margin: 3% 5%;
   color: #002d5b !important;
 }
@@ -505,27 +505,27 @@ a{
 
 /* Media queries for tablet views */
 @media (max-width: 768px) {
-  .connect {
+  .footer {
     min-height: 300px;
   }
-  .connect .main-title {
+  .footer .main-title {
     margin: 3% 3%;
   }
 }
 
 /* Media queries for mobile views */
 @media (max-width: 560px) {
-  .connect {
+  .footer {
     min-height: 250px;
   }
-  .connect .main-title {
+  .footer .main-title {
     font-size: 24px;
     margin: 3% 2%;
   }
   .social-icons {
     margin-top: 10px;
   }
-  .contact-details h5{
+  .footer-details h5{
     font-size: 14px;
   }
   .social-icons i {

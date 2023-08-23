@@ -16,7 +16,7 @@ function UiUxCards() {
         <h3 className="card-container-title">Notification Bar UI</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={notification} alt="" />
+            <img src={notification} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -39,7 +39,7 @@ function UiUxCards() {
         <h3 className="card-container-title">Screen Loading UI</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={screenloading} alt="" />
+            <img src={screenloading} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -62,7 +62,7 @@ function UiUxCards() {
         <h3 className="card-container-title">Food App UI</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={dishes} alt="" className="hover-zoom" />
+            <img src={dishes} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -85,7 +85,7 @@ function UiUxCards() {
         <h3 className="card-container-title">Cosmetic App UI</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={cosmetic} alt="" className="hover-zoom" />
+            <img src={cosmetic} alt="" loading="lazy" />
           </div>
           <div className="card-text">
             <p>
@@ -104,7 +104,7 @@ function UiUxCards() {
         <h3 className="card-container-title">Login Page UI</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={loginpage} alt="" className="hover-zoom" />
+            <img src={loginpage} alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -122,7 +122,7 @@ function UiUxCards() {
         <h3 className="card-container-title">Food Article UI</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={foodie} alt="" className="hover-zoom" />
+            <img src={foodie} alt="" loading="lazy" />
           </div>
           <div className="card-text">
             <p>

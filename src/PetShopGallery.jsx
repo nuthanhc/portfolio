@@ -1,5 +1,5 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
+import { Link } from '@mui/material';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
@@ -17,21 +17,11 @@ export default function MaxWidthDialog() {
     setOpen(false);
   };
 
-  const handleSave = () => {
-    // Create a temporary link element to trigger download
-    const link = document.createElement('a');
-    link.href = resumeimg;
-    link.download = 'resume.jpg';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
-
   return (
     <React.Fragment>
-      <Button variant="outlined" onClick={handleClickOpen}>
-        RESUME
-      </Button>
+      <Link onClick={handleClickOpen} style={{cursor:"pointer"}}>
+        <i class="bi bi-images"></i>
+      </Link>
       <Dialog
         fullWidth='md' // 'lg' is not a valid value, use true or false
         maxWidth='md' // Disable the maximum width limit
@@ -42,7 +32,6 @@ export default function MaxWidthDialog() {
           <img src={resumeimg} alt="" loading="lazy"/>
         </DialogContent>
         <DialogActions>
-          <button className="dialog-close-button" onClick={handleSave}>Download</button>
           <button className="dialog-close-button" onClick={handleClose}>Close</button>
         </DialogActions>
       </Dialog>
