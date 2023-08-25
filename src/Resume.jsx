@@ -1,13 +1,14 @@
-import * as React from 'react';
+import React, { useState } from 'react';
 import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import resumeimg from './images/resume.jpg';
+import resumePdf from './pdf/resume.pdf'; 
+import resume from './images/resume.png'
 import './Main.css';
 
 export default function MaxWidthDialog() {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleClickOpen = () => {
     setOpen(true);
@@ -20,8 +21,8 @@ export default function MaxWidthDialog() {
   const handleSave = () => {
     // Create a temporary link element to trigger download
     const link = document.createElement('a');
-    link.href = resumeimg;
-    link.download = 'resume.jpg';
+    link.href = resumePdf;
+    link.download = 'resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -33,13 +34,13 @@ export default function MaxWidthDialog() {
         RESUME
       </Button>
       <Dialog
-        fullWidth='md' // 'lg' is not a valid value, use true or false
-        maxWidth='md' // Disable the maximum width limit
+        fullWidth={true}
+        maxWidth="md"
         open={open}
         onClose={handleClose}
       >
         <DialogContent className="dialog-content">
-          <img src={resumeimg} alt="" loading="lazy"/>
+          <img src={resume} alt="" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleSave}>Download</button>
