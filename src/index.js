@@ -6,11 +6,13 @@ import Footer from './Footer';
 import UiUxGallery from './UiUxGallery';
 import Home from './Home';
 import GraphicGallery from './GraphicGallery';
+import Header from './Header';
 
 const Index = () => {
   return (
     <React.StrictMode>
       <Router>
+        <Header/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/UiUxGallery" element={<UiUxGallery />} />
