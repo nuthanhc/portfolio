@@ -3,9 +3,8 @@ import Button from '@mui/material/Button';
 import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
-import resumePdf from './pdf/resume.pdf'; 
-import resume from './images/resume.png'
-import './Main.css';
+import resumePdf from '../../pdf/resume.pdf'; 
+import '../../Main.css';
 
 export default function MaxWidthDialog() {
   const [open, setOpen] = useState(false);
@@ -40,7 +39,7 @@ export default function MaxWidthDialog() {
         onClose={handleClose}
       >
         <DialogContent className="dialog-content">
-          <img src={resume} alt="" loading="lazy"/>
+          <img src="/images/resume.png" alt="" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleSave}>Download</button>

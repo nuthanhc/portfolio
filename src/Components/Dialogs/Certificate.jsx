@@ -3,8 +3,7 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 // import DialogTitle from '@mui/material/DialogTitle';
-import CertificateImage from './images/certificate.jpg';
-import './Main.css';
+import '../../Main.css';
 
 export default function CertificateDialog() {
   const [open, setOpen] = React.useState(false);
@@ -39,7 +38,7 @@ export default function CertificateDialog() {
       >
         {/* <DialogTitle>Certificate</DialogTitle> */}
         <DialogContent className="dialog-content"> 
-          <img src={CertificateImage} alt="Certificate" loading="lazy"/>
+          <img src="/images/certificate.jpg" alt="Certificate" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleClose}>Close</button>

@@ -2,14 +2,14 @@ import React from 'react';
 import GoToTop from './GoToTop';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import './index.css';
-import UiUxHero from './UiUxHero';
-import UiUxCards from './UiUxCards';
+import UiUxHero from './Components/UiUx/UiUxHero';
+import UiUxBody from './Components/UiUx/UiUxBody';
 
 export const UiUxGallery = () => {
   return (
     <React.StrictMode>
       <UiUxHero />
-      <UiUxCards />
+      <UiUxBody/>
       <GoToTop />
     </React.StrictMode>
   );
