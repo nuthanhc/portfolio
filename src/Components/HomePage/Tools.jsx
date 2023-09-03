@@ -55,6 +55,18 @@ function Tools() {
       <div className="tools">
         <div className="d-flex justify-content-center tech-images">
           <img
+            src="/images/bootstrap.png"
+            alt="bootstrap"
+            className="tech-icon"
+            loading="lazy"
+          />
+          <img
+            src="/images/tailwind.png"
+            alt="tailwind"
+            className="tech-icon"
+            loading="lazy"
+          />
+          <img
             src="/images/git.png"
             alt="git"
             className="tech-icon"
