@@ -24,16 +24,7 @@ export const Home = () => {
       <AboutMe />
       <SkillSet />
       <Tools />
-      <Internship
-        Title="Internship Chronicles"
-        Heading="Web Technology"
-        About="'I refined my Web Development skills during a transformative 6-month
-       internship at IRP Innovative Solutions. Immersed in real-world
-       projects, I garnered invaluable experience and actively contributed to
-       impactful solutions. This paid opportunity further amplified my
-       expertise, enabling me to elevate my Web Development skills while
-       delivering meaningful contributions to real-world projects.'"
-      />
+      <Internship/>
     </React.StrictMode>
   );
 };

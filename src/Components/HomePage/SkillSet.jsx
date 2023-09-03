@@ -4,6 +4,8 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import PetShopGallery from "../Gallery/PetShopGallery";
 import HomeServiceGallery from "../Gallery/HomeServiceGallery";
 import "../../Main.css";
+import ProjectCards from "./ProjectCards";
+import GalleryCards from "./GalleryCard";
 
 function SkillSet() {
   return (
@@ -21,60 +23,31 @@ function SkillSet() {
         <div className="card-holder">
           <h5 className="card-holder-heading text-center">Projects</h5>
           <div className="card-container">
-            <div className="card">
-              <div className="card-body">
-                <div className="card-img">
-                  <img src="/images/petlogo.png" alt="Project" loading="lazy" />
-                </div>
-                <div className="content">
-                  <h3 className="card-title text-center">
-                    Pet Shop Management
-                  </h3>
-                  <p className="card-info">
-                    In our 5th-semester DBMS project, Team of 2 members crafted
-                    a pet shop management system. This e-commerce platform
-                    enabled pet buying and selling, featuring authentication,
-                    pet listings, and carts. Our cohesive effort highlighted
-                    database, web development skills, and teamwork.
-                  </p>
-                </div>
-              </div>
-              <div className="card-links">
-                <a href="https://github.com/nuthanhc/getpets">
-                  <i className="bi bi-github"></i>
-                </a>
-                <a href="https://getpets.000.pe/">
-                  <i class="bi bi-link"></i>
-                </a>
-                <PetShopGallery />
-              </div>
-            </div>
-            <div className="card">
-              <div className="card-body">
-                <div className="card-img">
-                  <img src="/images/servicelogo.jpg" alt="Project" loading="lazy" />
-                </div>
-                <div className="content">
-                  <h3 className="card-title text-center">
-                    Home Service Management
-                  </h3>
-                  <p className="card-info">
-                    At IRP Innovative Solutions, our intern team of three
-                    swiftly developed a home service management platform using
-                    existing APIs. In just a month, we created a versatile
-                    platform that offers various services - from plumbing to
-                    repairs. This project showcased our efficient teamwork and
-                    Web Development skills.
-                  </p>
-                </div>
-              </div>
-              <div className="card-links">
-                <a href="https://doarclab.com/">
-                  <i class="bi bi-link"></i>
-                </a>
-                <HomeServiceGallery />
-              </div>
-            </div>
+            <ProjectCards
+              Title="Pet Shop Management"
+              Image="petlogo"
+              About="In our 5th-semester DBMS project, Team of 2 members crafted
+            a pet shop management system. This e-commerce platform
+            enabled pet buying and selling, featuring authentication,
+            pet listings, and carts. Our cohesive effort highlighted
+            database, web development skills, and teamwork."
+              GitLink="https://github.com/nuthanhc/getpets"
+              WebLink="https://getpets.000.pe/"
+              Gallery={<PetShopGallery />}
+            />
+            <ProjectCards
+              Title="Home Service Management"
+              Image="servicelogo"
+              About=" At IRP Innovative Solutions, our intern team of three
+            swiftly developed a home service management platform using
+            existing APIs. In just a month, we created a versatile
+            platform that offers various services - from plumbing to
+            repairs. This project showcased our efficient teamwork and
+            Web Development skills."
+              GitLink=""
+              WebLink="https://doarclab.com/"
+              Gallery={<HomeServiceGallery />}
+            />
           </div>
         </div>
       </div>
@@ -87,27 +60,12 @@ function SkillSet() {
           that redefine user interactions."
         </p>
         <Link to="/UiUxGallery">
-          <div className="project-card">
-            <div className="card-content">
-              <div className="card-details">
-                <div className="card-image">
-                  <img src="/images/uiuxlogo.png" alt="Project" loading="lazy" />
-                </div>
-                <div className="content-text">
-                  <h3 className="text-title">
-                    Design Delights: UI/UX Showcase
-                  </h3>
-                  <p className="text-para">
-                    "Come Walk Through My Gallery of Design Delights: Explore
-                    the World of UI/UX Creations"
-                  </p>
-                </div>
-              </div>
-              <div className="card-arrow">
-                <i class="bi bi-caret-right-fill"></i>
-              </div>
-            </div>
-          </div>
+          <GalleryCards
+            Title="Design Delights: UI/UX Showcase"
+            Image="uiuxlogo"
+            About="Come Walk Through My Gallery of Design Delights: Explore
+          the World of UI/UX Creations"
+          />
         </Link>
       </div>
       <div className="web pt-5">
@@ -119,27 +77,12 @@ function SkillSet() {
           captivating graphic designs."
         </p>
         <Link to="/GraphicGallery">
-          <div className="project-card">
-            <div className="card-content">
-              <div className="card-details">
-                <div className="card-image">
-                  <img src="/images/gdlogo.png" alt="Project" loading="lazy" />
-                </div>
-                <div className="content-text">
-                  <h3 className="text-title">
-                    Pixel Perfection: Visual Art Gallery
-                  </h3>
-                  <p className="text-para">
-                    "Discover a Mesmerizing Journey through Creative Pixels and
-                    Visual Wonders."
-                  </p>
-                </div>
-              </div>
-              <div className="card-arrow">
-                <i class="bi bi-caret-right-fill"></i>
-              </div>
-            </div>
-          </div>
+          <GalleryCards
+            Title="Pixel Perfection: Visual Art Gallery"
+            Image="gdlogo"
+            About="Discover a Mesmerizing Journey through Creative Pixels and
+          Visual Wonders."
+          />
         </Link>
       </div>
     </div>
