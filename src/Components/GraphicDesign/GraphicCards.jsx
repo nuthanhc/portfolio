@@ -1,16 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.css";
-import "./Main.css";
-import internship from "./images/internship.png";
-import redesignedimage from "./images/redesignedimage.png";
-import collegefest from "./images/collegefest.png";
-import clientposter from "./images/clientposter.png";
-import sg1 from "./images/Sciencedayposter.png";
-import sg2 from "./images/happybirthdaycard.png";
-import sg3 from "./images/collegecertificate.png";
-import sg4 from "./images/collegeinvitation.png";
-import sg5 from "./images/farewellbanner.png";
-import sg6 from "./images/farewellposter.png"
+import "../../Main.css";
 import { FaFigma } from "react-icons/fa";
 
 function GraphicCards() {
@@ -20,7 +10,7 @@ function GraphicCards() {
         <h3 className="card-container-title">College Fest Poster's</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={collegefest} alt="" loading="lazy"/>
+            <img src="/images/collegefest.png" alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -43,7 +33,7 @@ function GraphicCards() {
         <h3 className="card-container-title">Client Shop Banner</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={clientposter} alt="" loading="lazy"/>
+            <img src="/images/clientposter.png" alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -67,7 +57,7 @@ function GraphicCards() {
         <h3 className="card-container-title">Isometric Design</h3>
         <div className="card-card">
           <div className="card-img">
-            <img src={internship} alt="" loading="lazy"/>
+            <img src="/images/internship.png" alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -90,7 +80,7 @@ function GraphicCards() {
         <h3 className="card-container-title">Gradient Desktop Wallpaper</h3>
         <div className="card-card-reverse">
           <div className="card-img">
-            <img src={redesignedimage} alt="" loading="lazy"/>
+            <img src="/images/redesignedimage.png" alt="" loading="lazy"/>
           </div>
           <div className="card-text">
             <p>
@@ -113,24 +103,24 @@ function GraphicCards() {
         <h3 className="card-container-title">Other Poster's & Banner's</h3>
         <div className="sub-gallery">
           <div class="gallery-card">
-            <img src={sg1} alt="" loading="lazy"/>
+            <img src="/images/Sciencedayposter.png" alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg2} alt="" loading="lazy"/>
+            <img src="/images/happybirthdaycard.png" alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg4} alt="" loading="lazy"/>
+            <img src="/images/collegeinvitation.png" alt="" loading="lazy"/>
           </div>
         </div>
         <div className="sub-gallery">
           <div class="gallery-card">
-            <img src={sg3} alt="" loading="lazy"/>
+            <img src="/images/collegecertificate.png" alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg5} alt="" loading="lazy"/>
+            <img src="/images/farewellbanner.png" alt="" loading="lazy"/>
           </div>
           <div class="gallery-card">
-            <img src={sg6} alt="" loading="lazy"/>
+            <img src="/images/farewellposter.png" alt="" loading="lazy"/>
           </div>
         </div>
       </div>

@@ -1,6 +1,6 @@
 
 import 'bootstrap/dist/css/bootstrap.css';
-import './Main.css';
+import '../../Main.css';
 
 function Footer(){
     return(

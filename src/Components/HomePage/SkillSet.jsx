@@ -1,13 +1,9 @@
 import "bootstrap/dist/css/bootstrap.css";
 import { Link } from "react-router-dom";
-import petlogo from "./images/petlogo.png";
-import servicelogo from "./images/servicelogo.jpg";
-import uiuxlogo from "./images/uiuxlogo.png";
-import gdlogo from "./images/gdlogo.png";
 import "bootstrap-icons/font/bootstrap-icons.css";
-import PetShopGallery from "./PetShopGallery";
-import HomeServiceGallery from "./HomeServiceGallery";
-import "./Main.css";
+import PetShopGallery from "../Gallery/PetShopGallery";
+import HomeServiceGallery from "../Gallery/HomeServiceGallery";
+import "../../Main.css";
 
 function SkillSet() {
   return (
@@ -28,7 +24,7 @@ function SkillSet() {
             <div className="card">
               <div className="card-body">
                 <div className="card-img">
-                  <img src={petlogo} alt="Project" loading="lazy"/>
+                  <img src="/images/petlogo.png" alt="Project" loading="lazy" />
                 </div>
                 <div className="content">
                   <h3 className="card-title text-center">
@@ -50,13 +46,13 @@ function SkillSet() {
                 <a href="https://getpets.000.pe/">
                   <i class="bi bi-link"></i>
                 </a>
-                <PetShopGallery/>
+                <PetShopGallery />
               </div>
             </div>
             <div className="card">
               <div className="card-body">
                 <div className="card-img">
-                  <img src={servicelogo} alt="Project" loading="lazy"/>
+                  <img src="/images/servicelogo.jpg" alt="Project" loading="lazy" />
                 </div>
                 <div className="content">
                   <h3 className="card-title text-center">
@@ -76,7 +72,7 @@ function SkillSet() {
                 <a href="https://doarclab.com/">
                   <i class="bi bi-link"></i>
                 </a>
-                <HomeServiceGallery/>
+                <HomeServiceGallery />
               </div>
             </div>
           </div>
@@ -95,7 +91,7 @@ function SkillSet() {
             <div className="card-content">
               <div className="card-details">
                 <div className="card-image">
-                  <img src={uiuxlogo} alt="Project" loading="lazy"/>
+                  <img src="/images/uiuxlogo.png" alt="Project" loading="lazy" />
                 </div>
                 <div className="content-text">
                   <h3 className="text-title">
@@ -127,7 +123,7 @@ function SkillSet() {
             <div className="card-content">
               <div className="card-details">
                 <div className="card-image">
-                  <img src={gdlogo} alt="Project" loading="lazy"/>
+                  <img src="/images/gdlogo.png" alt="Project" loading="lazy" />
                 </div>
                 <div className="content-text">
                   <h3 className="text-title">

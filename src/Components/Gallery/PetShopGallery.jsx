@@ -4,8 +4,7 @@ import Dialog from '@mui/material/Dialog';
 import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
-import doarclabhomepage from './images/doarclabhomepage.png';
-import './Main.css';
+import '../../Main.css';
 
 export default function MaxWidthDialog() {
   const [open, setOpen] = React.useState(false);
@@ -17,6 +16,7 @@ export default function MaxWidthDialog() {
   const handleClose = () => {
     setOpen(false);
   };
+
   return (
     <React.Fragment>
       <Link onClick={handleClickOpen} style={{cursor:"pointer"}}>
@@ -32,7 +32,7 @@ export default function MaxWidthDialog() {
           <h5>Screenshot</h5>
         </DialogTitle>
         <DialogContent className="dialog-content">
-          <img src={doarclabhomepage} alt="" loading="lazy"/>
+          <img src="/images/petshophomepage.png" alt="" loading="lazy"/>
         </DialogContent>
         <DialogActions>
           <button className="dialog-close-button" onClick={handleClose}>Close</button>
