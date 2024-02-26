@@ -24,7 +24,7 @@ function UiUxBody() {
         Class="card-reverse"
         Image="cheesecakecompany"
         About="Designed a virtual bakery showcasing a variety of cheese cakes, classic cakes, pastries, and more."
-        Reference="https://www.figma.com/file/gYOVMdhXHAuoYWoPY6NAxe/CheeseCakeCompany?type=design&node-id=69%3A7&mode=design&t=UNhcfpvnbdl5JEKg-1"
+        Reference="https://www.figma.com/file/gYOVMdhXHAuoYWoPY6NAxe/CheeseCakeCompany?type=design&node-id=5%3A6&mode=design&t=Ma77gVQiGAkoPoEd-1"
       />
       <UiUxCards
         Title="Notification Bar UI"
