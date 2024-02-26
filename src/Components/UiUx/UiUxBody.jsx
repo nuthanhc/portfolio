@@ -6,6 +6,27 @@ function UiUxBody() {
   return (
     <div className="uiux-cards">
       <UiUxCards
+        Title="Gym Dashboard"
+        Class="card-reverse"
+        Image="gymdashboard"
+        About="The Gym Dashboard offers a centralized hub for fitness enthusiasts to monitor their workout progress and overall performance. Featuring comprehensive status indicators, users can gain an insightful overview of their exercise routines, track key metrics, and analyze trends. With intuitive data visualization, this dashboard empowers individuals to optimize their fitness regimen and achieve their health goals effectively."
+        Reference="https://www.figma.com/file/gYOVMdhXHAuoYWoPY6NAxe/CheeseCakeCompany?type=design&node-id=69%3A7&mode=design&t=UNhcfpvnbdl5JEKg-1"
+      />
+      <UiUxCards
+        Title="Energy Consumption & Efficiency Dashboard"
+        Class="card"
+        Image="energydasboard"
+        About="The Energy Consumption & Efficiency Dashboard showcases comprehensive graphs and charts, providing insightful analytics on project performance. Through visually engaging representations, it effectively communicates key metrics and trends, aiding in informed decision-making and optimization strategies."
+        Reference="https://www.figma.com/file/gYOVMdhXHAuoYWoPY6NAxe/CheeseCakeCompany?type=design&node-id=69%3A7&mode=design&t=UNhcfpvnbdl5JEKg-1"
+      />
+      <UiUxCards
+        Title="Cheese Cake Company"
+        Class="card-reverse"
+        Image="cheesecakecompany"
+        About="Designed a virtual bakery showcasing a variety of cheese cakes, classic cakes, pastries, and more."
+        Reference="https://www.figma.com/file/gYOVMdhXHAuoYWoPY6NAxe/CheeseCakeCompany?type=design&node-id=69%3A7&mode=design&t=UNhcfpvnbdl5JEKg-1"
+      />
+      <UiUxCards
         Title="Notification Bar UI"
         Class="card"
         Image="notificationbar"
